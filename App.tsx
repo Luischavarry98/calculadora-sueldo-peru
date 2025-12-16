@@ -208,7 +208,7 @@ const App: React.FC = () => {
         doc.setFont("helvetica", "normal");
         doc.setFontSize(10);
         doc.setTextColor(100, 116, 139);
-        doc.text("Adelantos / Préstamos", margin + 5, boxY);
+        doc.text("Adelantos", margin + 5, boxY);
         doc.text(`-${fmt(data.advancePayment)}`, rightColX - 5, boxY, { align: "right" });
         
         // Separator inside box
