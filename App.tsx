@@ -270,7 +270,7 @@ const App: React.FC = () => {
                   label="Nombre Completo" 
                   value={data.name} 
                   onChange={(val) => updateField('name', val)} 
-                  placeholder="Ej: Juana Pérez"
+                  placeholder="Ej: Nombre del Colaborador"
                 />
               </div>
               <NumberInput 
